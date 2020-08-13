@@ -1,0 +1,137 @@
+#address{
+	margin-top: 30px;
+	display:block;
+	float:left;
+	margin-left: 10%;
+	width: 40%;
+}
+.errors{
+	color: #ED412B;
+	display:block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#cardSelection{
+	display: inline-block;
+	width: 70%;
+	float: left;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+
+
+#payment{
+	margin-top: 30px;
+	display:block;
+	margin-right: 10%;
+	float:right;
+	width: 40%;
+}
+
+#address label{
+	float: left;
+	width: 20%;
+	margin: 3px;
+	margin-right: 2%;
+	display: inline-block;
+	background-color: #0D8FBA;
+	height: 30px;
+}
+
+#payment label{
+	float: left;
+	clear: left;
+	width: 20%;
+	margin: 3px;
+	margin-right: 2%;
+	margin-left: 7%;
+	display: inline-block;
+	background-color: #0D8FBA;
+	height: 30px;
+}
+
+
+#address input, #payment input{
+	height: 30px;
+	margin: 3px;
+	margin-right: 0px;
+	width: 70%;
+}
+
+#payment input{
+	float:right;
+}
+
+#nextBtn{
+	height: 5%;
+	width: 30%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 5%;
+	float: right;
+}
+
+#address #addressTitle, #payment #paymentTitle{
+	background-color: #0D8FBA;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	width: 93%;
+}
+
+#dobSelection{
+	display: inline-block;
+	width: 70%;
+	float: left;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+select:not(#selectYear):not(#selectCountry):not(#selectCard){
+	height:30px;
+	margin-right: 13px;
+	width: 31%;
+}
+
+#selectYear{
+	height: 30px;
+	width: 31%;
+}
+
+span{
+	background-color: #0D8FBA;
+	display: block;
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+}
+
+#countrySelection{
+	display: inline-block;
+	width: 70%;
+	background-color: #384;
+	float: left;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+#selectCountry{
+	height: 30px;
+	width: 100%;
+}
+
+#selectCard{
+	height: 30px;
+	width: 100%;
+}

@@ -1,0 +1,119 @@
+
+#total{
+	border: 5px solid #0D8FBA;
+	margin-top: 1%;
+	height: 20px;
+	font-variant: small-caps;
+	display: inline-block;
+	width: 40%;
+	font-size:20px;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+}
+
+#links{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+#checkout{
+	float:right;
+	border: 5px solid #0D8FBA;
+	margin-top: 1%;
+	height: 20px;
+	display: inline-block;
+	width: 40%;
+	font-size:30px;
+	font-weight: bold;
+	line-height:20px;;
+	padding: 20px;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#checkout:hover{
+	color: #E3F542;
+}
+
+
+
+
+#scroll {
+width:90%;
+height: 60%;
+margin:60px auto;
+background:#A3CBE0;
+border:2px solid #000;
+overflow:auto;
+overflow-y:hidden;
+box-shadow:0 0 10px #000;
+}
+#scroll ul {
+display:table;
+white-space:nowrap;
+list-style:none;
+}
+
+#scroll span{
+margin: 10px;
+margin-right: 40px;	
+text-align: left;
+width: 200px;
+overflow: hidden;
+}
+
+#deleteForm button{
+width: 130px;
+}
+#scroll li {
+display:table-cell; 
+text-align:center;       
+}
+#scroll img {
+width: 150px;
+height: 150px;
+border:0;
+display:block;
+border:1px solid #A3CBE0;
+margin:15px 15px 0 15px;
+}
+#scroll a:active img, #scroll a:focus img, #scroll a:hover img {
+border:1px solid #000;
+}
+#scroll a {
+text-decoration:none;
+font-weight:bold;
+color:#000;
+}
+#scroll a:active, #scroll a:focus, #scroll a:hover {
+color:#FFF;
+}
+#scroll span {
+padding:5px 0 0;
+display:block;
+}
+
+#empty{	
+width: 50%;
+height:50%;
+margin: 0 auto;
+display: block;
+}
+
+#empty span{
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	margin: 0 auto;
+}
+
+#backToShop{
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+#backToShop a :hover{
+	color: #F1FA46;
+}

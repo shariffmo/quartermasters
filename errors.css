@@ -1,0 +1,11 @@
+.error{
+	display: inline-block;
+	color: #F5341B;
+	font-weight: bold;
+	width: 30%;
+	margin-right: 2%;
+	float: right;
+	clear: left;
+	padding: 10px;
+	margin-top: -3.5%;
+}

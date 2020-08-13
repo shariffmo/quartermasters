@@ -1,0 +1,57 @@
+#registerationForm label:not(#radioOption):not(.error){
+	display: inline-block;
+	background-color: #0D8FBA;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 10%;
+	margin: 10px;
+	float: left;
+	clear: left;
+	padding: 10px;
+	margin-left:30%;
+}
+
+
+#rButton{
+	display: inline-block;
+	width: 5%;
+	float: left;
+	margin-top: 20px;
+	background-color: #384;
+}
+
+#registerationForm input:not(#rButton){
+	display: inline-block;
+	width: 19.7%;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+#dobSelection{
+	display: inline-block;
+	width: 50.7%;
+	float: left;
+	padding: 10px;
+}
+
+select{
+	height:35px;
+	width: 13%;
+}
+
+#radioOption{
+	float: left;
+	padding:10px;
+	margin-top: 10px;
+}	
+
+
+#registerationForm button{
+	clear:both;
+	float:left;
+	width: 105px;
+	margin-left:55%;
+	padding: 12px;
+	margin-bottom: 10px;
+}
